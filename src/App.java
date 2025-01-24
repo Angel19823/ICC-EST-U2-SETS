@@ -1,4 +1,6 @@
 import java.util.Set;
+import java.util.TreeSet;
+import models.Contacto;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -28,7 +30,7 @@ public class App {
         }
     }
 
-    public static void runTreeSet(){
+    private static void runTreeSet(){
         Sets miTreeSet = new Sets();
         Set<String> ejemploHasSet = miTreeSet.construirTreeSet();
         System.out.println("----- TreeSet -----");
@@ -37,7 +39,7 @@ public class App {
             System.out.println( elemento );
         }
     } 
-    public static void runTreeComparador(){
+    private static void runTreeComparador(){
         Sets miTreeCom = new Sets();
         Set<String> ejemploCom = miTreeCom.contruirTreeSetConComparador();
         System.out.println("----- TreeSetComparador -----");
@@ -46,5 +48,10 @@ public class App {
             System.out.println( elemento );
         }
     } 
+
+    private static void runEjercicio(){
+        Set<Contacto> agenda = new TreeSet<>(new ContactCompare);
+
+    }
 
 }
