@@ -49,9 +49,9 @@ public class App {
         }
     } 
 
-    private static void runEjercicio(){
-        Set<Contacto> agenda = new TreeSet<>(new ContactCompare);
+    // private static void runEjercicio(){
+    //     Set<Contacto> agenda = new TreeSet<>(new ContactCompare);
 
-    }
+    // }
 
 }

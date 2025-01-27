@@ -6,11 +6,11 @@ import java.util.TreeSet;
 import models.Contacto;
 
 public class ContactoComparador {
-    public int compare(Contacto c1, Contacto c2) {
-        if(comparacionApellido != 0){
+    // public int compare(Contacto c1, Contacto c2) {
+    //     if(comparacionApellido != 0){
 
-        }
-    }
+    //     }
+    // }
 
     public Set<String> compararNombre(){
         Comparator<String> comparadorPorLongitud = new Comparator<String>(){
